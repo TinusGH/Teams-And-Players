@@ -1,20 +1,15 @@
 # Teams-And-Players
 ASP.Net Framework 4.8 Web Forms Application, Bootstrap 5 and SQL Database (C#)
 
--	Bootstrap 5
--	SQL Database
--	ASP.NET 4.8
-
-MVC Challenge:
+Web Forms Challenge:
+Rules:
+-	A player can only play for 1 team. Additional registrations must not be possible.
 Page 1:
-Using ASP.NET C# MVC without entity framework, create an complaints page where a publicly member can create an complaint. Once a user has submitted an complaint, save the information to a MS SQL database \ local dB (Page 2).
-An complaint has the following properties:
--	ID, Full Name, Email Address, Mobile Number, Complaint Details
-A complaint’s meta item has the following properties:
--	Id, Complaint Id, IP Address, Date Time.
+Using ASP.Net C# Web Forms, design a front-end page where team members can register to play for a publicly accessible list of active teams (See Page 2). The form requires you to capture the following details regarding the player:
+-	First Name, Surname, Age, ID, Address, Team he wishes to play with
 Page 2:
-Create a dashboard that shows a summary of all complaints that were generated, with a detailed view link (Page 3).
-Summary Details Required in table format:
-Date Created, Full Name, Date Logged, Email Address
+Design a back-end members area where a registered administrator can create Teams that player can register for. All Teams should be publicly accessible from Page 1 (List of available Teams). A Team should have the following properties:
+-	Name, Created Date, Is Active
 Page 3:
-Create a read-only view of the selected complaint as it was on the screen upon a user submission with the additional meta data.
+Design a back-end members area where a registered administrator can see all the registered player per Team
+
